@@ -46,4 +46,3 @@ Here is example of screen:
 
 ![IOT Configurator](https://github.com/Oleg-Imanilov/smart-home/blob/master/images/iot-configurator-proto.png "IOT Configurator")
 
-
