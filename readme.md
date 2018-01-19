@@ -27,3 +27,8 @@ Lightweight MQTT service. Running on raspberry PI.
 This is autonomus device to configure other IOT devices. It includes small oled display where user can see configuration. When it is on any IOT may connect to it and get this configuration.
 ![IOT Configurator](https://github.com/Oleg-Imanilov/smart-home/blob/master/images/iot-configurator-device.png "IOT Configurator")
 
+Here is example of screen:
+
+![IOT Configurator](https://github.com/Oleg-Imanilov/smart-home/blob/master/images/iot-configurator-proto.png "IOT Configurator")
+
+
