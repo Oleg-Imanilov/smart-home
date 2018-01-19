@@ -4,6 +4,15 @@
 
 ![System diagram](https://github.com/Oleg-Imanilov/smart-home/blob/master/images/system-draft.png "System diagram")
 
+Each IOT device may be configured by IOT configurator (Also esp8266 device). When you installing or moving one of IOT devices across your house, you just need to start it in "install" mode when IOT configurator is on. Devices will automatically connect and configuration will be copied from configurator into IOT device flash memory. 
+
+Configuration contains:
+* WiFi SSID / WiFi Password 
+* MQTT IP
+* Device Name (to recognize it in management)
+* Location ( for example: home/2ndfloor/kids-room ) - Location will be used as MQTT topic prefix
+
+
 ## System components
 1. Management Web Application
 2. IOT devices
