@@ -4,6 +4,12 @@
 
 ![System diagram](https://github.com/Oleg-Imanilov/smart-home/blob/master/images/system-draft.png "System diagram")
 
+Many different kinds of IOTs connected to MQTT broker. For example IOT may listen for topic "home/basement/light1", if it gets message "on" - device turning on the light in basement. Another device can publish temperature every few minutes. e.t.c.
+
+WebServer also connected to MQTT broker. It listening to the triggers and sends commands. The WebApp contains management of all equipment and rules. It contains database to store historical data like events, temperature, humidity e.t.c. The WebApp also gives interface to monitor & manually controll every connected device.
+
+Server have limited/secured connection by port forwarding to the internet - so services like IFTTT may be configured with any other smart home services like Alexa or Google assist or any other 3rd party service.
+
 Each IOT device may be configured by IOT configurator (Also esp8266 device). When you installing or moving one of IOT devices across your house, you just need to start it in "install" mode when IOT configurator is on. Devices will automatically connect and configuration will be copied from configurator into IOT device flash memory. 
 
 Configuration contains:
