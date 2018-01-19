@@ -10,7 +10,7 @@ WebServer also connected to [MQTT](http://mqtt.org/) broker. It listening to the
 
 Server have [REST API](https://en.wikipedia.org/wiki/Representational_state_transfer) to send/recieve commands of outer services with limited/secured connection by port forwarding to the internet - so services like [IFTTT](https://ifttt.com/discover) may be configured with any other smart home services like Alexa or Google assist or any other 3rd party service.
 
-Each IOT device may be configured by IOT configurator (Also esp8266 device). When you installing or moving one of IOT devices across your house, you just need to start it in "install" mode when [IOT](https://en.wikipedia.org/wiki/Internet_of_things) configurator is on. Devices will automatically connect and configuration will be copied from configurator into IOT device flash memory. 
+Each IOT device may be configured by IOT configurator (Also esp8266 device). When you installing or moving one of IOT devices across your house, you just need to start it in "install" mode when IOT configurator is on. Devices will automatically connect and configuration will be copied from configurator into IOT device flash memory. 
 
 Configuration contains:
 * WiFi SSID / WiFi Password 
