@@ -1,4 +1,7 @@
-#This is my hobby "Smart Home" project. 
+# This is my hobby "Smart Home" project. 
+
+## How it works
+
 
 It contains:
 1. NodeMcu IOT Configurator
